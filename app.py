@@ -54,7 +54,7 @@ def form():
         c.drawString(2*cm, height - 7*cm, f"Tarih    : {datetime.now().strftime('%d.%m.%Y')}")
 
         c.setFont("TurkceFont", 14)
-        c.drawString(2*cm, height - 9*cm, " Bildiğiniz Diller:")
+        c.drawString(2*cm, height - 9*cm, " Bildiğim Diller:")
         c.setFont("TurkceFont", 12)
         for i, dil in enumerate(diller.split(",")):
             c.drawString(3*cm, height - (10+i)*cm, f"- {dil.strip()}")
