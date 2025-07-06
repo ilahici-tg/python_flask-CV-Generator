@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Yazılımcı CV Oluşturucu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            padding: 50px;
+        }
+        .form-container {
+            background: white;
+            padding: 30px;
+            max-width: 600px;
+            margin: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0 20px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        label {
+            font-weight: bold;
+        }
+        button {
+            background-color: #2e86de;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #1e70c1;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Yazılımcı PDF CV Oluştur</h2>
+        <form method="POST" enctype="multipart/form-data">
+            <label>Ad Soyad:</label>
+            <input type="text" name="ad" required>
+
+            <label>E-Posta:</label>
+            <input type="email" name="eposta" required>
+
+            <label>Telefon:</label>
+            <input type="text" name="telefon" required>
+
+            <label>Yazılım Dilleri (virgülle ayır):</label>
+            <input type="text" name="diller" placeholder="Python, JavaScript, SQL" required>
+
+            <label>Tecrübeler (virgülle ayır):</label>
+            <textarea name="tecrubeler" placeholder="Web geliştirme, API kullanımı" required></textarea>
+
+            <label>Kullandığın Araçlar (virgülle ayır):</label>
+            <input type="text" name="araclar" placeholder="VSCode, Git, Docker" required>
+
+            <label>Fotoğraf (jpg/png):</label>
+            <input type="file" name="foto" accept="image/*" required>
+
+            <button type="submit">PDF Oluştur</button>
+        </form>
+    </div>
+</body>
+</html>
