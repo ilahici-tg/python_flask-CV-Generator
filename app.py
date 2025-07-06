@@ -1,12 +1,15 @@
-from flask import Flask, render_template, request, send_file
-from reportlab.pdfgen import canvas
-from reportlab.lib.pagesizes import A4
-from reportlab.pdfbase import pdfmetrics
-from reportlab.pdfbase.ttfonts import TTFont
-from reportlab.lib.units import cm
-import os
-from datetime import datetime
-from werkzeug.utils import secure_filename
+    import os
+try:
+    from flask import Flask, render_template, request, send_file
+    from reportlab.pdfgen import canvas
+    from reportlab.lib.pagesizes import A4
+    from reportlab.pdfbase import pdfmetrics
+    from reportlab.pdfbase.ttfonts import TTFont
+    from reportlab.lib.units import cm
+    from datetime import datetime
+    from werkzeug.utils import secure_filename
+except:
+    os.system('pip install reportlab')
 
 app = Flask(__name__)
 
