@@ -24,3 +24,16 @@ CV PDF ORNEK:
 
 
 
+## 📬 İletişim
+
+Aşağıdaki kanallardan bana ulaşabilirsiniz:
+
+- 📧 **E-posta:** [balciy927@gmail.com](mailto:balciy027@gmail.com)
+- 💬 **Telegram:** [@ilahici](https://t.me/ilahici)
+- 📸 **Instagram:** [@ilahici_tg](https://instagram.com/ilahici_tg)
+- 🌐 **Web Sitesi:** [www.ilahicii.com](https://ilahici-tg.github.io/s/)
+
+---
+
+> İstediğiniz platformdan bana ulaşabilirsiniz!
+
